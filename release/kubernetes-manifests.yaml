@@ -340,10 +340,10 @@ spec:
           resources:
             requests:
               cpu: 100m
-              memory: 64Mi
+              memory: 128Mi
             limits:
               cpu: 200m
-              memory: 128Mi
+              memory: 512Mi
 ---
 apiVersion: v1
 kind: Service
@@ -428,10 +428,10 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 64Mi
+            memory: 128Mi
           limits:
             cpu: 200m
-            memory: 128Mi
+            memory: 512Mi
 ---
 apiVersion: v1
 kind: Service
@@ -501,10 +501,10 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 64Mi
+            memory: 128Mi
           limits:
             cpu: 200m
-            memory: 128Mi
+            memory: 512Mi
 ---
 apiVersion: v1
 kind: Service
@@ -566,10 +566,10 @@ spec:
         resources:
           requests:
             cpu: 200m
-            memory: 64Mi
+            memory: 128Mi
           limits:
             cpu: 300m
-            memory: 128Mi
+            memory: 512Mi
         readinessProbe:
           initialDelaySeconds: 15
           grpc:
@@ -805,10 +805,10 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 64Mi
+            memory: 128Mi
           limits:
             cpu: 200m
-            memory: 128Mi
+            memory: 256Mi
 ---
 apiVersion: v1
 kind: Service
@@ -878,10 +878,10 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 64Mi
+            memory: 128Mi
           limits:
             cpu: 200m
-            memory: 128Mi
+            memory: 512Mi
 ---
 apiVersion: v1
 kind: Service
